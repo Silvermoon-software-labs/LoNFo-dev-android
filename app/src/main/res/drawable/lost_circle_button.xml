@@ -1,0 +1,20 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <stroke android:color="#c8f442"
+        android:width="2dp"></stroke>
+    <solid android:color="#92c3dd"></solid>
+    <size android:height="120dp"
+        android:width="120dp"></size>
+    <item android:state_pressed="true"
+        android:drawable="@color/button_pressed"/> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@color/button_focused"/> <!-- focused -->
+    <item android:drawable="@color/button_default"/> <!-- default -->
+</shape>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<item android:drawable="@drawable/button_pressed_yellow"-->
+    <!--android:state_pressed="true" />-->
+<!--<item android:drawable="@drawable/button_focused_orange"-->
+    <!--android:state_focused="true" />-->
+<!--<item android:drawable="@drawable/button_normal_green" />-->
+<!--</selector>-->

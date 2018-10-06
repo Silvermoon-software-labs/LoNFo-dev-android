@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LOnFO</string>
+    <string name="lost">LOST</string>
+    <string name="found">FOUND</string>
+    <string name="login">LOGIN</string>
+    <string name="reg">REGISTER</string>
+    <string name="loginPage">LOGIN PAGE</string>
+    <string name="registrationPage">REGISTRATION PAGE</string>
+</resources>

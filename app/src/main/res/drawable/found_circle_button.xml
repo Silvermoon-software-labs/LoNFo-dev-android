@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <stroke android:color="#c8f442"
+        android:width="2dp"></stroke>
+    <solid android:color="#dd3c60"></solid>
+    <size android:height="120dp"
+        android:width="120dp"></size>
+    <item android:state_pressed="true"
+        android:drawable="@color/button_pressed"/> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@color/button_focused"/> <!-- focused -->
+    <item android:drawable="@color/button_default"/> <!-- default -->
+</shape>
