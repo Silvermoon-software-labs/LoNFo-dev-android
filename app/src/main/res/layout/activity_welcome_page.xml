@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="236dp"
         android:alpha="1"
         android:background="@drawable/lost_circle_button"
         android:padding="15dp"
@@ -22,7 +23,9 @@
         android:textColor="#dd3c3c"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/found_button"

@@ -6,4 +6,6 @@
     <string name="reg">REGISTER</string>
     <string name="loginPage">LOGIN PAGE</string>
     <string name="registrationPage">REGISTRATION PAGE</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
 </resources>
