@@ -5,47 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha="0.5"
-    android:background="#dcd247"
+    android:background="@drawable/background_xhdpi"
     tools:context=".WelcomePage">
 
-    <Button
-        android:id="@+id/lost_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="236dp"
-        android:alpha="1"
-        android:background="@drawable/lost_circle_button"
-        android:padding="15dp"
-        android:text="@string/lost"
-        android:textColor="#dd3c3c"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/found_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/found_circle_button"
-        android:text="@string/found"
-        android:textColor="#513cdd"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
-        app:layout_constraintStart_toEndOf="@+id/lost_button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="313dp"
+        android:layout_height="326dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="63dp" />
 </android.support.constraint.ConstraintLayout>

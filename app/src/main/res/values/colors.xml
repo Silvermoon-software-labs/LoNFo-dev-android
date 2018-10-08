@@ -5,5 +5,5 @@
     <color name="colorAccent">#a50739</color>
     <color name="button_pressed">#ff8a00</color>
     <color name="button_focused">#ff8a00</color>
-    <color name="button_default">#8d252a2d</color>
+    <color name="button_default">#e8f6f6d3</color>
 </resources>

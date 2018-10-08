@@ -8,4 +8,8 @@
     <string name="registrationPage">REGISTRATION PAGE</string>
     <string name="username">USERNAME</string>
     <string name="password">PASSWORD</string>
+    <string name="REGISTERHERE">NEW?
+        REGISTER HERE</string>
+
+
 </resources>
