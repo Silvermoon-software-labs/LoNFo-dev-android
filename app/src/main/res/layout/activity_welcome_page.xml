@@ -13,6 +13,6 @@
         android:layout_width="313dp"
         android:layout_height="326dp"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="63dp" />
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="113dp" />
 </android.support.constraint.ConstraintLayout>

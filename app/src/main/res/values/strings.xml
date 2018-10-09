@@ -8,8 +8,8 @@
     <string name="registrationPage">REGISTRATION PAGE</string>
     <string name="username">USERNAME</string>
     <string name="password">PASSWORD</string>
-    <string name="REGISTERHERE">NEW?
-        REGISTER HERE</string>
+    <string name="REGISTERHERE">NEW? REGISTER HERE</string>
+    <string name="term_condition">By Clicking on Login/Register, you are agreeing LOnFo's term and condition and cookie policy </string>
 
 
 </resources>
