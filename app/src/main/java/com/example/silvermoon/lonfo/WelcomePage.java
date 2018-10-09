@@ -54,7 +54,7 @@ public class WelcomePage extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            Intent intent = new Intent(WelcomePage.this , LoginActivity.class);
+            Intent intent = new Intent(WelcomePage.this , Activity2.class);
             startActivity(intent);
             WelcomePage.this.finish();
             }
